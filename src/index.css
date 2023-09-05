@@ -1,0 +1,274 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+li,
+p {
+  margin: 0;
+  padding: 0;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif !important;
+  max-height: 100vh;
+  color: #333;
+}
+::-webkit-scrollbar {
+  width: 8px;
+  background: #eee;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgb(215, 215, 215);
+}
+button,
+input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+button {
+  cursor: pointer;
+}
+#container {
+  min-height: 100vh;
+  max-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  font-family: 'Times New Roman', Times, serif;
+}
+#container > header {
+  border-top: 3px solid #4d455d;
+}
+header h1 a:hover {
+  color: #4d455d;
+}
+header {
+  display: flex;
+  background-color: rgb(62, 111, 72);
+  border-bottom: 1px solid #eee;
+}
+header aside {
+  flex: 0 1 10%;
+  display: flex;
+  justify-content: flex-start;
+}
+button:hover,
+.button:hover {
+  background-color: none;
+  color: white;
+}
+footer {
+  background-color: rgb(127, 187, 134);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+}
+#main-header {
+  flex: 0.5;
+  text-align: left;
+  margin: 10px 10px 10px;
+  /* padding: 10px 10px 10px; */
+  color: white;
+  font-size: 25px;
+  font-family: 'Times New Roman', Times, serif;
+  margin-left: 50px
+}
+#main-header:hover {
+  cursor: pointer;
+}
+#obituary-header-close {
+  flex: 1;
+  text-align: center;
+  margin: 0;
+  padding: 10px 0;
+}
+#container-pop-up {
+  min-height: 100vh;
+  max-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+#resume-button {
+  flex: 0 1 100%;
+  font-size: 1em;
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+}
+#about-button {
+  flex: 0 1 100%;
+  font-size: 1em;
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+}
+#project-button {
+  flex: 0 1 100%;
+  font-size: 1em;
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+}
+#github-button {
+  flex: 0 1 100%;
+  font-size: 1em;
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+}
+#github-button:hover {
+  cursor: pointer;
+}
+#linkedin-button {
+  flex: 0 1 100%;
+  font-size: 1em;
+  color: white;
+}
+#email-button {
+  flex: 0 1 100%;
+  font-size: 1em;
+  color: white;
+}
+#menu-button {
+  flex: 0 1 100%;
+  font-size: 1em;
+  color: white;
+  margin-left: 5px
+}
+#overlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  opacity: 0.85;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#container-pop-up {
+  min-height: 100vh;
+  max-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+#menu-header {
+  border-bottom: none;
+  height: 100%;
+  width: 100%;
+  padding-bottom: 30px;
+}
+#menu-header-close {
+  flex: 1;
+  text-align: center;
+  margin: 0;
+  padding: 10px 0;
+}
+#menu-button:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.center {
+  text-align: center;
+}
+.center2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+#about-header {
+  color: black;
+  font-size: 100px;
+}
+#empty-header {
+  flex: 0.5;
+}
+#intro-container {
+  display: flex;
+  align-items: center;
+  background-color: rgb(62, 111, 72);
+  padding-bottom: 100px;
+}
+#intro {
+  margin: 100px;
+  margin-right: 50px;
+  margin-left: 100px;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+}
+#profile-pic {
+  margin: 100px;
+  margin-right: 150px;
+  height: auto;
+  width: 400px;
+  border-radius: 250px;
+  flex-grow: 1;
+}
+#description-container {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+}
+#description-title {
+  font-size: 25px;
+}
+#description {
+  margin-left: 150px;
+  margin-right: 150px;
+  font-size: 30px;
+}
+#line {
+  padding-bottom: 25px;
+}
+#main-footer {
+  font-size: 20px;
+}
+#course-title {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(62, 111, 72);
+  color: white;
+  padding: 20px;
+}
+#course-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(62, 111, 72);
+  color: white;
+}
+#software-container {
+  padding: 15px;
+}
+#engineering-container {
+  padding: 15px;
+}
+#other-container {
+  padding: 15px;
+}
+
+
+
+
+@media (max-width: 768px) {
+  .obituary-list li {
+    flex-basis: 50%; /* for 2 li per row */
+    flex-grow: 1;
+  }
+}
+@media (max-width: 384px) {
+  .obituary-list li {
+    flex-basis: 100%; /* for 1 li per row */
+    flex-grow: 1;
+  }
+}
+
